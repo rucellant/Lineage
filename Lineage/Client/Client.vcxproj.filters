@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{ee55c9be-233d-43bf-8508-c0ee1157d981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. Client">
+      <UniqueIdentifier>{75cd5f87-1d6f-49a0-8bbc-6d9e9c51b6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Maingame">
+      <UniqueIdentifier>{ecd18948-d9d5-484d-aab2-d1eb80abc138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObj">
+      <UniqueIdentifier>{87d1fd2a-7413-4f09-9fbf-05f2c0016c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager">
+      <UniqueIdentifier>{ae4fc885-3849-4e15-8040-f908eb6b9edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\00. DeviceMgr">
+      <UniqueIdentifier>{fd959861-e42d-4bec-affb-79727d16867a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObj\01. GameObj">
+      <UniqueIdentifier>{81c7c6b3-2667-4d88-a164-c7dac495aad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObj\02. Player">
+      <UniqueIdentifier>{a2bae223-eda2-4ca9-8aa9-93d39f6fbf50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\01. TextureMgr">
+      <UniqueIdentifier>{d4e9b396-2fd1-47b5-96b9-dd8e7b1cff4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\01. TextureMgr\00. Texture">
+      <UniqueIdentifier>{265bacef-6bfe-4570-b64b-f9cb6a8dbdc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\01. TextureMgr\01. SingleTexture">
+      <UniqueIdentifier>{7acf922d-53fc-4d6e-9dd9-d3eba98c25dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\01. TextureMgr\02. MultiTexture">
+      <UniqueIdentifier>{2e7e7099-8236-4ca5-b24e-55c252bd16a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\01. TextureMgr\03. TextureMgr">
+      <UniqueIdentifier>{7351fd73-e6dc-438b-8ac4-d2a1ca8224a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObj\03. Terrain">
+      <UniqueIdentifier>{b037c123-0076-44b2-b64b-b01ea4d40375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\02. ScrollMgr">
+      <UniqueIdentifier>{7e423660-837c-4eb0-a12a-e6d68f5cd073}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>00. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Maingame.h">
+      <Filter>01. Maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMgr.h">
+      <Filter>03. Manager\00. DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>02. GameObj\01. GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02. GameObj\02. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>03. Manager\01. TextureMgr\00. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>03. Manager\01. TextureMgr\01. SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>03. Manager\01. TextureMgr\03. TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>03. Manager\01. TextureMgr\02. MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>02. GameObj\03. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>03. Manager\02. ScrollMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>00. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Maingame.cpp">
+      <Filter>01. Maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>03. Manager\00. DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>02. GameObj\01. GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02. GameObj\02. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>03. Manager\01. TextureMgr\00. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>03. Manager\01. TextureMgr\01. SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>03. Manager\01. TextureMgr\03. TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>03. Manager\01. TextureMgr\02. MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>02. GameObj\03. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>03. Manager\02. ScrollMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
